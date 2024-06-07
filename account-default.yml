@@ -1,13 +1,13 @@
 account:
-  ms: Piseth Bank Accounts Default
+  ms: "Piseth Bank Accounts Default"
   build-version: 3
   mail-configuration:
-    hostname: default-accounts@khem.com
+    hostname: "default-accounts@khem.com"
     port: 9000
-    from-address: default-accounts@khem.com
-    subject: Your Account Details from khem Bank Default Environment
+    from-address: "default-accounts@khem.com"
+    subject: "Your Account Details from khem Bank Default Environment"
   active-branches:
-    - Phnom Penh
-    - Kompong Cham
-    - Battombong
+    - "Phnom Penh"
+    - "Kompong Cham"
+    - "Battombong"
 
