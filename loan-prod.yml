@@ -1,0 +1,12 @@
+ loan:
+  msg: "Welcome to loan prod application"
+  build-version: 0.0.1  
+  mail-details:
+    host-name: "prod-loan@khem.com"
+    port: 9000
+    from: "prod-loan@khem.com"
+    subject: "defualt env"
+  branch:
+    - "Phnom Penh"
+    - "Kompong Cham"
+    - "Battombong"

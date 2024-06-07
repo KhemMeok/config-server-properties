@@ -1,0 +1,12 @@
+ loan:
+  msg: "Welcome to loan dev application"
+  build-version: 0.0.1  
+  mail-details:
+    host-name: "dev-laon@khem.com"
+    port: 9000
+    from: "dev-loan@khem.com"
+    subject: "defualt env"
+  branch:
+    - "Phnom Penh"
+    - "Kompong Cham"
+    - "Battombong"

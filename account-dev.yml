@@ -1,0 +1,12 @@
+account:
+  ms: Piseth Bank Accounts dev
+  build-version: 3
+  mail-configuration:
+    hostname: dev-accounts@khem.com
+    port: 9000
+    from-address: dev-accounts@khem.com
+    subject: Your Account Details from khem Bank dev Environment
+  active-branches:
+    - Phnom Penh
+    - Kompong Cham
+    - Battombong
