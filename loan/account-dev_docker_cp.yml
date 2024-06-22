@@ -1,0 +1,33 @@
+spring:
+  
+  datasource:
+    url: jdbc:postgresql://postgres:5432/micro_service_db?currentSchema=loan_schema
+    driver-class-name: org.postgresql.Driver
+    username: loan_user
+    password: 123
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      
+# Optional: Custom banner location
+banner:
+  location: classpath:/banner/banner.txt
+
+
+# application info
+loan:
+  message: Loan Development Environment
+  build-version: 0.0.1
+  
+  mail-detail:
+    hostname: development-loan@khem.com
+    port: 1001
+    from-address: development-loan@khem.com
+    subject: Loan Development Environment
+
+  active-branch:
+    - Phnom Penh
+    - Siem Reap
+    - Battombong
