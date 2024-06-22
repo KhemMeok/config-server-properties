@@ -14,3 +14,18 @@ spring:
 # Optional: Custom banner location
 banner:
   location: classpath:/banner/banner.txt
+
+account:
+  message: Account Development Environment
+  build-version: 0.0.1
+  
+  mail-detail:
+    hostname: development-account@khem.com
+    port: 1001
+    from-address: development-account@khem.com
+    subject: Account Development Environment
+
+  active-branch:
+    - Phnom Penh
+    - Siem Reap
+    - Battombong
