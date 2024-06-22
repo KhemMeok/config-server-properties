@@ -1,0 +1,37 @@
+spring:
+  
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      
+# Optional: Enable H2 Console
+h2:
+  console:
+    enabled: true
+
+# Optional: Custom banner location
+banner:
+  location: classpath:/banner/banner.txt
+
+# application info
+card:
+  message: Card Development Environment
+  build-version: 0.0.1
+  
+  mail-detail:
+    hostname: development-card@khem.com
+    port: 1001
+    from-address: development-card@khem.com
+    subject: Card Development Environment
+
+  active-branch:
+    - Phnom Penh
+    - Siem Reap
+    - Battombong
