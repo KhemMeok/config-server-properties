@@ -1,0 +1,16 @@
+spring:
+  
+  datasource:
+    url: jdbc:postgresql://postgres:5432/micro_service_db?currentSchema=account_schema
+    driver-class-name: org.postgresql.Driver
+    username: account_user
+    password: 123
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      
+# Optional: Custom banner location
+banner:
+  location: classpath:/banner/banner.txt
