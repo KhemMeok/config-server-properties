@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:ORCLCDB
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: khim
+    password: Khem2002
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle12cDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      
+# Optional: Custom banner location
+banner:
+  location: classpath:/banner/banner.txt
+
+account:
+  message: Account Development Environment
+  build-version: 0.0.1
+  
+  mail-detail:
+    hostname: development-account@khem.com
+    port: 1001
+    from-address: development-account@khem.com
+    subject: Account Development Environment
+
+  active-branch:
+    - Phnom Penh
+    - Siem Reap
+    - Battombong
+
