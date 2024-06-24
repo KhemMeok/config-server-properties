@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:ORCLCDB
     driver-class-name: oracle.jdbc.OracleDriver
-    username: khim
+    username: khem
     password: Khem2002
   jpa:
     database-platform: org.hibernate.dialect.Oracle12cDialect
